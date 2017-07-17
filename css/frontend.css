@@ -1,0 +1,87 @@
+.widget_wps_gfwidget {
+  overflow: visible !important;
+  max-width: 100%;
+}
+
+.wps-gfwidget-output {
+  position: relative;
+}
+
+.wps-gfwidget-overlay {
+  max-width: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  background: #f1f1f1;
+  z-index:10;
+}
+
+.wps-gfwidget-content {
+  max-width: 100%;
+  position: relative;
+  z-index:100;
+}
+
+.wps-gfwidget-output .sticky {
+  position: absolute;
+  top:-15px;
+  right:-15px;
+  display: inline-block;
+  z-index:999;
+}
+
+/* top left */
+.wps-gfwidget-output .sticky.top-left {
+  right:auto;
+  left:-15px;
+}
+
+/* top center */
+.wps-gfwidget-output .sticky.top-center {
+  right:auto;
+  left:50%;
+  top:-25px;
+  margin-left:-15px;
+}
+
+/* tape */
+.wps-gfwidget-output .sticky-tape {
+  top:-30px;
+  right:-30px;
+}
+
+/* Footer */
+.wps-gfwidget-footer {
+  position: relative;
+}
+
+.wps-gfwidget-footer .wps-gfwidget-footer-left {
+  background: url('../assets/images/shadow-footer-left.png') top left no-repeat;
+  display: inline-block;
+  width: 95px;
+  height: 15px;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.wps-gfwidget-footer .wps-gfwidget-footer-right {
+  background: url('../assets/images/shadow-footer-right.png') top left no-repeat;
+  display: inline-block;
+  width: 95px;
+  height: 15px;
+  position: absolute;
+  top:0;
+  right: 0;
+}
+
+.wps-gfw-btn {
+  margin-top: 15px;
+  display: block;
+  background: #fff;
+  text-align: center;
+  border-radius:5px;
+  padding: 10px 0px;
+}
